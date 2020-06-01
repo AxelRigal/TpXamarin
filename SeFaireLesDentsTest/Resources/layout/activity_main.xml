@@ -1,0 +1,111 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/bouton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bouton 1"
+        />
+
+    <Button
+        android:id="@+id/bouton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bouton 2"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/bouton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bouton 3"
+        android:layout_alignParentRight="true"
+        />
+
+    <Button
+        android:id="@+id/toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bouton1"
+        android:text="Accelerometer"/>
+
+    <Button
+        android:id="@+id/bouton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bouton 4"
+        android:layout_centerVertical="true"
+        />
+
+    <Button
+        android:id="@+id/bouton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bouton 5"
+        android:layout_centerInParent="true"
+        />
+    <Button
+        android:id="@+id/bouton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bouton 6"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        />
+    <Button
+        android:id="@+id/bouton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bouton 7"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        />
+    <Button
+        android:id="@+id/bouton8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bouton 8"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        />
+    <Button
+        android:id="@+id/bouton9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bouton 9"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        />   
+    <TextView
+        android:text="Text"
+        android:layout_width="282.5dp"
+        android:layout_height="22.0dp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/tvAccX"
+        android:layout_below="@id/bouton4"/>
+    <TextView
+        android:text="Text"
+        android:layout_width="222.0dp"
+        android:layout_height="22.0dp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_below="@+id/tvAccX"
+        android:id="@+id/tvAccY" />
+
+    <TextView
+        android:text="Text"
+        android:layout_width="222.0dp"
+        android:layout_height="22.0dp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/tvAccZ"
+        android:layout_below="@+id/tvAccY"/>
+</RelativeLayout>
